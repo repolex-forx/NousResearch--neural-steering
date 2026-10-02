@@ -1,0 +1,38 @@
+{
+  "manifest_version": "1.0",
+  "org": "NousResearch",
+  "repo": "neural-steering",
+  "versions": [
+    {
+      "commit": "0083b8530a14f353d19737b944be8d93b2b130a5",
+      "parsed_at": "2026-10-02T10:55:09.503776+00:00",
+      "tag": "main",
+      "filetree": "filetree/0083b8530a14f353d19737b944be8d93b2b130a5.nq.gz",
+      "blobs": [
+        "blob/6aa18ae62ceacb25e3cee70122bdabadccb543bd.nq.gz",
+        "blob/29e851f82c2247f0995881bb38541894ebe3e33e.nq.gz",
+        "blob/b77bf2ab726c6e7cb5a81a9d3b7dc38266ebfd3d.nq.gz",
+        "blob/ca1271ee2a9897c169b839d9f7728c9e25087580.nq.gz",
+        "blob/8672e535cb0203320586cce871ad3bb90fa91725.nq.gz",
+        "blob/c71b5553d6643acdaa98693f1a4e1dad141c7737.nq.gz",
+        "blob/8978114ba30050c5c14b85c735559ddb82c3ac20.nq.gz",
+        "blob/4d1d3628e058e97a7ab9653a004edcb09ff00b66.nq.gz",
+        "blob/53ecc6038000822a7e32751a133c77a07c9af65a.nq.gz",
+        "blob/a899e1e06a8f899a2d310922a1069433e0a5e1cc.nq.gz",
+        "blob/ae583092a19c4b91f1a5e10d73b3b2e1057717ca.nq.gz",
+        "blob/7da1ecbc3cb87f7bb77d6a75ee16f7c664f6acb3.nq.gz",
+        "blob/0d99204d19e6610baf5e5f291783ae6e0c9a50cb.nq.gz",
+        "blob/949b96e8eb81de0d050464bf2a056f53365843a1.nq.gz",
+        "blob/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz",
+        "blob/b9b6258cd6fae35a8392c1d3cc4aa0368d0a5d79.nq.gz",
+        "blob/9a2957b8b641184039f5f96db1664b1a6a1f84aa.nq.gz",
+        "blob/3a1b1d362ca871df00ae62c6325798e26ec71b0e.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
