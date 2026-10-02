@@ -48,10 +48,38 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/0083b8530a14f353d19737b944be8d93b2b130a5/chunk-001.nq.gz",
       "repolex:graphFileSize": 2488071
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/0083b8530a14f353d19737b944be8d93b2b130a5.nq.gz",
+      "repolex:graphFileSize": 174526
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-10-02T10:55:09.503776+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/pytorch/pytorch",
+      "repolex:packageName": "torch"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/transformers",
+      "repolex:packageName": "transformers"
+    },
+    {
+      "@id": "https://repolex.ai/r/huggingface/accelerate",
+      "repolex:packageName": "accelerate",
+      "git:hexsha": "6afc1e5ee217051fde702b23de2813344dc0fd33",
+      "git:tagName": "v1.15.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/pypa/setuptools",
+      "repolex:packageName": "setuptools",
+      "git:hexsha": "72e919a8b10aaafc041205d4e3ae0e6a2e1e5f87",
+      "git:tagName": "v84.0.0"
+    }
+  ]
 }

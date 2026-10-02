@@ -1,0 +1,20 @@
+[2026-10-02T10:58:24Z] === ENRICH ITERATION 1 START | repo=NousResearch/neural-steering sha=0083b853 ===
+[2026-10-02T10:58:24Z] [iter=1] PHASE START: enrich repo=NousResearch/neural-steering sha=0083b853 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/0083b853-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/0083b8530a14f353d19737b944be8d93b2b130a5.nq.gz
+[2026-10-02T10:58:28Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-10-02T10:58:29Z] [iter=1] AST store loaded triples=167456 load_secs=1 mem_mb=332 MB
+[2026-10-02T10:58:29Z] [iter=1] Step 2: Finding LSP targets mem_mb=332 MB
+[2026-10-02T10:58:29Z] [iter=1] LSP targets found call_sites=1187 imports=66 extends=1 implements=0 secs=0
+[2026-10-02T10:58:30Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=332 MB
+[2026-10-02T10:58:31Z] [iter=1] Position index built positions=11486 nodes_with_types=15053 secs=1 mem_mb=332 MB
+[2026-10-02T10:58:31Z] [iter=1] Step 3: Starting LSP resolution mem_mb=332 MB already_completed_types=[] already_completed_files=0
+[2026-10-02T10:58:31Z] [iter=1] Resolving target type target_type=call_site count=1187
+[2026-10-02T11:03:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.9 files_done=1 resolved=412 errors=112 current=experiments/refusal_ablations.py
+[2026-10-02T11:04:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.7 files_done=6 resolved=840 errors=169 current=examples/refusal_steering.py
+[2026-10-02T11:04:05Z] [iter=1] Target type resolved target_type=call_site resolved=854 errors=169 secs=335 mem_mb=332 MB
+[2026-10-02T11:04:05Z] [iter=1] Resolving target type target_type=import_statement count=66
+[2026-10-02T11:04:07Z] [iter=1] Target type resolved target_type=import_statement resolved=61 errors=0 secs=2 mem_mb=332 MB
+[2026-10-02T11:04:07Z] [iter=1] Resolving target type target_type=extends_clause count=1
+[2026-10-02T11:04:08Z] [iter=1] Target type resolved target_type=extends_clause resolved=1 errors=0 secs=1 mem_mb=332 MB
+[2026-10-02T11:04:33Z] [iter=1] Step 5: Writing final enrichment file triples=10438
+[2026-10-02T11:04:33Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/0083b8530a14f353d19737b944be8d93b2b130a5.nq.gz size_kb=170
+[2026-10-02T11:04:33Z] [iter=1] PHASE END: enrich elapsed_s=369 elapsed_min=6.1 total_triples=10438

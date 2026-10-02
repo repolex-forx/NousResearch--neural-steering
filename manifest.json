@@ -30,6 +30,50 @@
       ],
       "ast": [
         "aggregate/ast/0083b8530a14f353d19737b944be8d93b2b130a5/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/0083b8530a14f353d19737b944be8d93b2b130a5.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "torch",
+          "ecosystem": "PYPI",
+          "version": "2.0",
+          "githubOrg": "pytorch",
+          "githubRepo": "pytorch",
+          "githubUrl": "https://github.com/pytorch/pytorch",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "transformers",
+          "ecosystem": "PYPI",
+          "version": "4.40",
+          "githubOrg": "huggingface",
+          "githubRepo": "transformers",
+          "githubUrl": "https://github.com/huggingface/transformers",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "accelerate",
+          "ecosystem": "PYPI",
+          "version": "1.15.0",
+          "githubOrg": "huggingface",
+          "githubRepo": "accelerate",
+          "githubCommit": "6afc1e5ee217051fde702b23de2813344dc0fd33",
+          "githubTag": "v1.15.0",
+          "githubUrl": "https://github.com/huggingface/accelerate",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.0.0",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "72e919a8b10aaafc041205d4e3ae0e6a2e1e5f87",
+          "githubTag": "v84.0.0",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/setuptools/__init__.py"
+        }
       ]
     }
   ],
