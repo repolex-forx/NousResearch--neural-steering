@@ -1,0 +1,11 @@
+{
+  "org": "NousResearch",
+  "repo": "neural-steering",
+  "versions": [
+    {
+      "commit": "0083b8530a14f353d19737b944be8d93b2b130a5",
+      "tag": "main",
+      "parsed_at": "2026-10-02T11:07:12.261722+00:00"
+    }
+  ]
+}
