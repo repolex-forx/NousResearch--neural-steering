@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/NousResearch/neural-steering/commit/0083b8530a14f353d19737b944be8d93b2b130a5",
       "git:hexsha": "0083b8530a14f353d19737b944be8d93b2b130a5",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     }
   ]
